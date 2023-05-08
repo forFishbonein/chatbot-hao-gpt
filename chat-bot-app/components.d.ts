@@ -13,6 +13,7 @@ declare module '@vue/runtime-core' {
     BaseHeader: typeof import('./src/components/BaseHeader.vue')['default']
     ElIcon: typeof import('element-plus/es')['ElIcon']
     ElScrollbar: typeof import('element-plus/es')['ElScrollbar']
+    ParticleAnimation: typeof import('./src/components/background/ParticleAnimation.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }

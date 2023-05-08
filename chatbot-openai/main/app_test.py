@@ -28,7 +28,7 @@ async def chatbot_talk(user_input: TalkRequest):
     history.append({"role": "user", "content": user_input.message.strip()})
 
     # 尝试1
-    # response = await openai.ChatCompletion.acreate(
+    # response = await openai.ChatCompletion.create(
     #     model="gpt-3.5-turbo",
     #     messages=history)
     # bot_response = response.choices[0].message
