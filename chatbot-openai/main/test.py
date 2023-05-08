@@ -1,7 +1,7 @@
 import openai
 
 # 填你的秘钥
-openai.api_key = "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"
+openai.api_key = "your key"
 
 # 提问代码
 def chat_gpt(prompt):
