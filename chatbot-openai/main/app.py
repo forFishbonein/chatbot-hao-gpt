@@ -18,7 +18,7 @@ app.add_middleware(
     max_age=86400
 )
 
-openai.api_key = "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"
+openai.api_key = "your key"
 
 
 class TalkRequest(BaseModel):
